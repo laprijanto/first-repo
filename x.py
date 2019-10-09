@@ -1,12 +1,12 @@
-import xml.etree.ElementTree as et
-from datetime import datetime
-from datetime import date
-import pandas as pd
-import os
 import glob
-from os import chdir
+import os
+import xml.etree.ElementTree as et
+from datetime import date, datetime
 from glob import glob
+from os import chdir
 from time import ctime
+
+import pandas as pd
 
 # We can use dictionary comprehensions
 
