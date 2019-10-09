@@ -8,8 +8,6 @@ from time import ctime
 
 import pandas as pd
 
-# We can use dictionary comprehensions
-
 etree = et.parse('C:/MyCode/xml/test-cdr.xml')
 root = etree.getroot()
 
